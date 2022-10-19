@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
+.header #header-nav {
+  background-color: lightyellow;
+  position: relative  ;  
+}
+.header #header-nav span {
+    font-size: 2.5em;
+    color:  black;
+    font-weight:  bold;
+}
+.header .navbar-header {
+  padding :10px;
+}
+#main-body h1 {
+  font-size:  2.5em;
+  color:  black;
+  font-weight:  bold;
+  text-align:  center;
+}
+
+#chicken, #mutton, #sushi{
+    padding: 15px 15px 15px 15px;
+}
+
+#chicken>div, #mutton>div, #sushi>div{
+  background: lightyellow;
+  padding: 5px 15px 5px 15px;
+  margin-bottom: 5px;
+}
+
+#chicken span, #mutton span, #sushi span{
+    text-align: center;
+}
+ul li {
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: center;
+  background-color: lightgray;
+  padding: 5px 15px 5px 15px;
+}
+ul li:nth-child(2) {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.navbar-nav{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
